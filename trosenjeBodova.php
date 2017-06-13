@@ -181,7 +181,7 @@ else{
 		<header>
             <figure style="margin: 0px">
                 <figcaption class="naslov"> Korisnik - akcije </figcaption>
-                <img src="slike/logo.png" class="prvaSlika" alt="Logo foi-a" usemap="#mapa1"/>
+                <img src="slike/skok.jpg" class="prvaSlika" alt="Logo foi-a" usemap="#mapa1"/>
                 <map name="mapa1">
                     <area href="index.html" alt="index" shape="rect" target="_blank" coords="0,0,200,200"/>
                     <area href="#o_meni" alt="o_meni" shape="rect" target="_parent" coords="200,0,400,200"/>
