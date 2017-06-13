@@ -1,3 +1,4 @@
+
 html, body {
 	padding: 0px;
 	margin: 0px;
@@ -29,13 +30,29 @@ header{
 }
 
 
+label{
+padding: 10px;  
+display: inline-block;  
+width: 150px;
+color: maroon;
+}
+
+#popisGresaka{
+   color: white;
+}
+
+input[submit]{
+background-color: white;    
+padding: 5px;    
+margin-left: 100px;    
+margin-top: 50px;
+}
+
+
 h1{
 	text-align: center;
 }
 
-h6{
-	margin: 0px;
-}
 
 nav > ul{
 	list-style: none;
@@ -63,6 +80,15 @@ nav ul li a:hover{
 	color: maroon;
 }
 
+footer figure {
+	display: inline-block;
+}
+
+footer figure img {
+	padding-left: 100px;
+    padding-right: 100px;
+    width: 50px;
+}
 
 figcaption {
 	text-align: center;
@@ -70,11 +96,13 @@ figcaption {
 	float: left;
 }
 
-
+footer figcaption{
+	color: white;
+}
 
 footer{
-	bottom: 0px;
-    position: relative;
+	    bottom: 0px;
+    position: fixed;
     clear: both;
     text-align: center;
     background-color: black;
@@ -82,6 +110,150 @@ footer{
     left: 0px;
     width: 100%;
 }
+
+footer a{
+	display: inline-block;
+}
+
+footer h5{
+	display: inline-block;
+	margin-top: 50px;
+}
+
+#o_meni{
+	position: relative;
+	text-align: center;
+	border-top: 5px solid maroon;
+	border-bottom: 5px solid maroon;
+}
+
+#o_meni ul{
+	position: absolute;
+    left: 50%;
+    top: 190px;
+    list-style: none;
+}
+
+#o_meni figure{
+	display: inline-block;
+    margin-left: -200px;
+}
+
+ 
+#o_meni img{
+	 display: inline-block; 
+	 height: 300px;
+	 width: auto;
+	 float: left;
+	}
+
+article{
+	display: inline-block;
+	margin-left: 40px;
+	text-indent: 20px;
+}
+
+
+#proizvodi figure {
+	display: inline-block;
+}
+
+#proizvodi h3{
+	text-align: center;
+}
+
+
+#proizvodi img{
+	width: 140px;
+	height: auto;
+    box-shadow: 5px 5px 12px 0px grey;
+    }
+
+
+#proizvodi  p{
+	width: 300px;
+	float: left;
+	text-align: justify;
+}
+
+
+
+form{
+	max-width: 400px;
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+    margin: 40px;
+    color: maroon;
+}
+
+h2{
+	text-align: center;
+}
+
+
+#noviProizvod label{
+	padding: 10px;
+	display: inline-block;
+	width: 180px;
+}
+
+select {
+	margin-left: 10px;
+    width: 230px;
+}
+
+#noviProizvod input[type="submit"]{
+	background-color: white;
+    padding: 10px 50px 10px 50px;
+    margin-left: 80px;
+}
+
+#noviProizvod input[type="reset"]{
+	color: white;
+	background-color: maroon;
+    padding: 10px;
+}
+
+
+
+
+
+.noviProizvod input[type=submit]{
+	padding: 150px;
+    margin-top: 50px;
+}
+
+.noviProizvod input[type=reset]{
+	padding: 5px;
+    margin-top: 50px;
+}
+
+.slika_opis_proizvoda{
+    float: right;
+    margin: 40px;
+    width: 48%;
+    display: inline-block;
+}
+
+.slika_opis_proizvoda figure {
+	position: relative;
+}
+
+.slika_opis_proizvoda img {
+	height: 200px;
+	width: auto;
+	position: absolute;
+}
+
+
+.slika_opis_proizvoda img:hover{
+	z-index: 4;
+}
+
+
 
 .tablica{
 	margin: 20px;
@@ -117,39 +289,9 @@ footer{
 	color: white;
 }
 
-footer p {
-	font-size: 15px;
-}
 
-
-#o_meni{
-	position: relative;
-	text-align: center;
-	border-top: 5px solid maroon;
-	border-bottom: 5px solid maroon;
-}
-
-#o_meni ul{
-	position: absolute;
-    left: 50%;
-    top: 190px;
-    list-style: none;
-}
-
-#o_meni figure{
-	display: inline-block;
-    margin-left: -200px;
-}
 
  
-#o_meni img{
-	 display: inline-block; 
-	 height: 300px;
-	 width: auto;
-	 float: left;
-	}
-
-
 @media screen and (max-width: 480px){
 	body{
 		background-color: pink;
@@ -159,25 +301,32 @@ footer p {
 		margin: 0px;
 		padding:0px;
 	}
+
 }
+
 @media screen and (min-width: 1240px) and (min-width: 480px){
-	body
-	{
+	body{
 		font-family: "calibri";
 		font-size: 20px;
 	}
+
 }
 
+
 @media screen and (max-width: 1240px){
-	body
-	{
+	body{
 		font-family: "Verdana";
 		font-size: 20px;
 		height: 100%;
 	}
 
-	nav > ul
-	{
+	nav > ul {
     font-size: 10px;
-	}
+	}	
+
+	
+}
+
+@media screen and (max-width: 1240px){
+	
 }
