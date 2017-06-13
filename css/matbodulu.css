@@ -1,0 +1,480 @@
+
+html, body {
+	padding: 0px;
+	margin: 0px;
+    height: 100%;
+}
+
+
+
+header{
+	background-color: #FFFFFF;
+	color: maroon;
+	padding: 0px;
+}
+
+.naslov {
+    color: maroon;
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
+    float: right;
+    padding-top: 100px;
+    padding: 100px;
+}
+
+.prvaSlika{
+	width: 200px;
+    height: auto;
+    margin-left: 150px;
+}
+
+
+#registracija{
+	color: #FFFFFF;
+	font-weight: 500;
+	background-color: maroon;
+	position: relative;
+	float: left;
+	margin: 5px;
+	margin-left: 150px;
+	margin-bottom: 150px;
+}
+
+#registracija h2{
+text-align: center;
+}
+
+#naslovF{
+margin: 0px;
+}
+
+label{
+padding: 10px;  
+display: inline-block;  
+width: 150px;
+color: maroon;
+}
+
+#popisGresaka{
+   color: white;
+}
+
+input[submit]{
+background-color: white;    
+padding: 5px;    
+margin-left: 100px;    
+margin-top: 50px;
+}
+
+
+h1{
+	text-align: center;
+}
+
+
+nav > ul{
+	list-style: none;
+	margin: 5px 0 5px 0;
+	background-color: maroon;
+	box-shadow: 0 5px 30px rgba(0,0,0,0.25);
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+
+nav > ul a{
+	text-transform: uppercase;
+	color: white;
+	display:  block;
+	padding: 15px;
+	text-decoration: none;
+
+}
+
+nav ul li a:hover{
+	background-color: white;
+	color: maroon;
+}
+
+footer figure {
+	display: inline-block;
+}
+
+footer figure img {
+	padding-left: 100px;
+    padding-right: 100px;
+    width: 50px;
+}
+
+figcaption {
+	text-align: center;
+	color: maroon;
+	float: left;
+}
+
+footer figcaption{
+	color: white;
+}
+
+footer{
+	    bottom: 0px;
+    position: fixed;
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: white;
+    left: 0px;
+    width: 100%;
+}
+
+footer a{
+	display: inline-block;
+}
+
+footer h5{
+	display: inline-block;
+	margin-top: 50px;
+}
+
+#o_meni{
+	position: relative;
+	text-align: center;
+	border-top: 5px solid maroon;
+	border-bottom: 5px solid maroon;
+}
+
+#o_meni ul{
+	position: absolute;
+    left: 50%;
+    top: 190px;
+    list-style: none;
+}
+
+#o_meni figure{
+	display: inline-block;
+    margin-left: -200px;
+}
+
+ 
+#o_meni img{
+	 display: inline-block; 
+	 height: 300px;
+	 width: auto;
+	 float: left;
+	}
+
+article{
+	display: inline-block;
+	margin-left: 40px;
+	text-indent: 20px;
+}
+
+
+#proizvodi figure {
+	display: inline-block;
+}
+
+#proizvodi h3{
+	text-align: center;
+}
+
+
+#proizvodi img{
+	width: 140px;
+	height: auto;
+    box-shadow: 5px 5px 12px 0px grey;
+    }
+
+
+#proizvodi  p{
+	width: 300px;
+	float: left;
+	text-align: justify;
+}
+
+#usklicnikNaziv{
+    color: red;
+}
+
+#usklicnikOpis{
+    color: red;
+}
+
+#usklicnikDatum{
+    color: red;
+}
+
+#usklicnikKategorija{
+    color: red;
+}
+
+#usklicnikVrijeme{
+    color: red;
+}
+
+form{
+	max-width: 400px;
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+    margin: 40px;
+    color: maroon;
+}
+
+h2{
+	text-align: center;
+}
+
+
+#noviProizvod label{
+	padding: 10px;
+	display: inline-block;
+	width: 180px;
+}
+
+select {
+	margin-left: 10px;
+    width: 230px;
+}
+
+#noviProizvod input[type="submit"]{
+	background-color: white;
+    padding: 10px 50px 10px 50px;
+    margin-left: 80px;
+}
+
+#noviProizvod input[type="reset"]{
+	color: white;
+	background-color: maroon;
+    padding: 10px;
+}
+
+.prijava input[type=submit]{
+	background-color: white;
+	padding: 5px;
+    margin-top: 50px;
+}
+
+.prijava a:visited {
+	color: maroon;
+}
+
+#prijava label{
+	padding: 10px;
+	display: inline-block;
+	width: 150px;
+}
+
+
+.proizvodLista{
+	display: inline-block;
+	margin: 40px;
+	width: 40%;
+}
+
+.proizvodLista dt{
+	color: maroon;
+}
+
+.proizvodLista dd{
+	width: 50%;
+}
+
+
+.noviProizvod input[type=submit]{
+	padding: 150px;
+    margin-top: 50px;
+}
+
+.noviProizvod input[type=reset]{
+	padding: 5px;
+    margin-top: 50px;
+}
+
+.slika_opis_proizvoda{
+    float: right;
+    margin: 40px;
+    width: 48%;
+    display: inline-block;
+}
+
+.slika_opis_proizvoda figure {
+	position: relative;
+}
+
+.slika_opis_proizvoda img {
+	height: 200px;
+	width: auto;
+	position: absolute;
+}
+
+
+.slika_opis_proizvoda img:hover{
+	z-index: 4;
+}
+
+
+#slika1{
+	top: 20px;
+    z-index: 2;
+    right: 390px;
+}
+
+
+#slika2{
+	right: 300px;
+    z-index: 2;
+    top: 130px;
+}
+
+#slika3{
+    z-index: 3;
+    right: 500px;
+}
+
+.tablica{
+	margin: 20px;
+	border: 2px solid maroon;
+}
+
+.tablica tr td {
+	text-align: center;
+	border: 1px solid maroon;
+}
+
+
+.tablica caption{
+	margin: 20px;
+}
+
+.tablica thead {
+	background-color: maroon;
+	color: white;
+}
+
+.tablica a{
+	color: maroon;
+}
+
+.tablica tr:hover{
+	background-color: maroon;
+	color: white;
+}
+
+
+.tablica tr:hover a{
+	color: white;
+}
+
+.greska{
+	background-color: red;
+}
+
+.banane {
+		float: right;
+	}	
+
+.quinoa{
+		float: right;
+	}
+
+ 
+@media screen and (max-width: 480px){
+	body{
+		background-color: pink;
+		font-family: "Arial";
+		font-size: 8px;
+		text-align: center;
+		margin: 0px;
+		padding:0px;
+	}
+
+	#o_meni figure {
+		display: none;
+	}	
+
+	.slika_opis_proizvoda{
+		display: none;
+	} 
+}
+
+@media screen and (min-width: 1240px) and (min-width: 480px){
+	body{
+		font-family: "calibri";
+		font-size: 20px;
+	}
+
+	.banane {
+		float: right;
+	}	
+
+	.quinoa{
+		float: right;
+	}
+
+	#proizvodi{
+		margin-left: 50px;
+	}
+
+	.slika_opis_proizvoda{
+		position: absolute;
+	}
+}
+
+
+@media screen and (max-width: 1240px){
+	body{
+		font-family: "Verdana";
+		font-size: 20px;
+		height: 100%;
+	}
+
+	nav > ul {
+    font-size: 10px;
+	}	
+
+	.slika_opis_proizvoda {
+		display: none;
+	}
+
+	.banane {
+		float: right;
+	}	
+
+	.quinoa{
+		float: right;
+	}
+
+
+	#prijava label{
+		padding: 10px;
+		display: inline-block;
+		width: 180px;
+	}
+
+	.sakrijKolicinu{
+		display: none;
+	}
+
+	.sakrijTezinu{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1240px){
+	.sakrijVrijeme{
+		display: none;
+	}
+	.banane {
+		float: right;
+	}	
+
+	.quinoa{
+		float: right;
+	}
+}

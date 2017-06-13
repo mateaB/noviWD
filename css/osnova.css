@@ -1,0 +1,183 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+    height: 100%;
+}
+
+
+
+header{
+	background-color: #FFFFFF;
+	color: maroon;
+	padding: 0px;
+}
+
+.naslov {
+    color: maroon;
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
+    float: right;
+    padding-top: 100px;
+    padding: 100px;
+}
+
+.prvaSlika{
+	width: 200px;
+    height: auto;
+    margin-left: 150px;
+}
+
+
+h1{
+	text-align: center;
+}
+
+h6{
+	margin: 0px;
+}
+
+nav > ul{
+	list-style: none;
+	margin: 5px 0 5px 0;
+	background-color: maroon;
+	box-shadow: 0 5px 30px rgba(0,0,0,0.25);
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+
+nav > ul a{
+	text-transform: uppercase;
+	color: white;
+	display:  block;
+	padding: 15px;
+	text-decoration: none;
+
+}
+
+nav ul li a:hover{
+	background-color: white;
+	color: maroon;
+}
+
+
+figcaption {
+	text-align: center;
+	color: maroon;
+	float: left;
+}
+
+
+
+footer{
+	bottom: 0px;
+    position: relative;
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: white;
+    left: 0px;
+    width: 100%;
+}
+
+.tablica{
+	margin: 20px;
+	border: 2px solid maroon;
+}
+
+.tablica tr td {
+	text-align: center;
+	border: 1px solid maroon;
+}
+
+
+.tablica caption{
+	margin: 20px;
+}
+
+.tablica thead {
+	background-color: maroon;
+	color: white;
+}
+
+.tablica a{
+	color: maroon;
+}
+
+.tablica tr:hover{
+	background-color: maroon;
+	color: white;
+}
+
+
+.tablica tr:hover a{
+	color: white;
+}
+
+footer p {
+	font-size: 15px;
+}
+
+
+#o_meni{
+	position: relative;
+	text-align: center;
+	border-top: 5px solid maroon;
+	border-bottom: 5px solid maroon;
+}
+
+#o_meni ul{
+	position: absolute;
+    left: 50%;
+    top: 190px;
+    list-style: none;
+}
+
+#o_meni figure{
+	display: inline-block;
+    margin-left: -200px;
+}
+
+ 
+#o_meni img{
+	 display: inline-block; 
+	 height: 300px;
+	 width: auto;
+	 float: left;
+	}
+
+
+@media screen and (max-width: 480px){
+	body{
+		background-color: pink;
+		font-family: "Arial";
+		font-size: 8px;
+		text-align: center;
+		margin: 0px;
+		padding:0px;
+	}
+}
+@media screen and (min-width: 1240px) and (min-width: 480px){
+	body
+	{
+		font-family: "calibri";
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1240px){
+	body
+	{
+		font-family: "Verdana";
+		font-size: 20px;
+		height: 100%;
+	}
+
+	nav > ul
+	{
+    font-size: 10px;
+	}
+}

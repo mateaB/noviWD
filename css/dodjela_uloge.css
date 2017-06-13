@@ -1,0 +1,82 @@
+.dodjela_uloge{
+	background-color: maroon;
+}
+
+.dodjela_uloge label{
+
+	color: white;
+}
+
+
+form{
+	max-width: 400px;
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+    margin: 40px;
+    color: maroon;
+}
+
+.zaSliku{
+	background-image: url('/slike/zumba_1.jpg');
+}
+
+
+nav > ul{
+	list-style: none;
+	margin: 5px 0 5px 0;
+	background-color: maroon;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+
+nav > ul a{
+	text-transform: uppercase;
+	color: white;
+	display:  block;
+	padding: 20px;
+}
+
+nav ul li a:hover{
+	background-color: white;
+	color: maroon;
+}
+
+footer figure {
+	display: inline-block;
+}
+
+footer figure img {
+	padding-left: 100px;
+    padding-right: 100px;
+    width: 50px;
+}
+
+figcaption {
+	text-align: center;
+}
+
+footer figcaption{
+	color: white;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+footer a{
+	display: inline-block;
+}
+
+footer h5{
+	display: inline-block;
+	margin-top: 50px;
+}
